@@ -1,0 +1,10 @@
+l1=Link('d',0,'a',0,'alpha',pi/2)
+l2=Link('d',0,'a',0.5,'alpha',0,'offset',pi/2)
+l3=Link('d',0,'a',0,'alpha',pi/2,'offset',pi/4)
+l4=Link('d',1,'a',0,'alpha',-pi/2)
+l5=Link('d',0,'a',0,'alpha',pi/2)
+l6=Link('d',1,'a',0,'alpha',0)
+robot=SerialLink([l1 l2 l3 l4 l5 l6])
+robot.display()
+theta=[0 0 0 0 0 0]
+robot.plot(theta)

@@ -1,0 +1,10 @@
+l1=Link([pi/2 0 0 -pi/2])
+l2=Link([0 6 15 0])
+l3=Link([0 0 1 -pi/2])
+l4=Link([0 18 0 pi/2])
+l5=Link([0 0 0 pi/2])
+l6=Link([0 0 0 0])
+robot=SerialLink([l1 l2 l3 l4 l5 l6])
+robot.display()
+theta=[0 0 0 0 0 0]
+teach(robot)
