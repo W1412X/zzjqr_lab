@@ -1,4 +1,8 @@
-# 山东大学机器人实验  第五章 5.4实训部分
+# 山东大学机器人实验  第6章 6.4实训部分
+> 最新更新在Github
+>  - [Github地址](https://github.com/W1412X/zzjqr_lab)
+>  - 吐槽Matlab在Ubuntu里是真的难用感觉
+>  - [**Ubuntu配置Matlab的一些问题**](https://blog.csdn.net/m0_73802120/article/details/138317818)
 ## 一些概念
 ### 关节角度插值
 - 为了使机器人按照预期从一个位置过渡到另一个位置，对其关节角度进行插值计算，就是插进去几个状态。
