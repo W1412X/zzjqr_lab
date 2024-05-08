@@ -285,6 +285,19 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named person_publisher
+
+# Build rule for target.
+person_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 person_publisher
+.PHONY : person_publisher
+
+# fast build rule for target.
+person_publisher/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/person_publisher.dir/build.make learning_topic/CMakeFiles/person_publisher.dir/build
+.PHONY : person_publisher/fast
+
+#=============================================================================
 # Target rules for targets named pose_subscribe
 
 # Build rule for target.
@@ -805,6 +818,19 @@ turtlesim_generate_messages_py/fast:
 .PHONY : turtlesim_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named person_subscriber
+
+# Build rule for target.
+person_subscriber: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 person_subscriber
+.PHONY : person_subscriber
+
+# fast build rule for target.
+person_subscriber/fast:
+	$(MAKE) -f learning_topic/CMakeFiles/person_subscriber.dir/build.make learning_topic/CMakeFiles/person_subscriber.dir/build
+.PHONY : person_subscriber/fast
+
+#=============================================================================
 # Target rules for targets named std_srvs_generate_messages_nodejs
 
 # Build rule for target.
@@ -878,6 +904,7 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... person_publisher"
 	@echo "... pose_subscribe"
 	@echo "... velocity_publisher"
 	@echo "... learning_topic_generate_messages_py"
@@ -918,6 +945,7 @@ help:
 	@echo "... turtlesim_generate_messages_eus"
 	@echo "... turtlesim_generate_messages_lisp"
 	@echo "... turtlesim_generate_messages_py"
+	@echo "... person_subscriber"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... learning_topic_generate_messages_eus"

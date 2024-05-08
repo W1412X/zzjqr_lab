@@ -1,0 +1,16 @@
+background_b: 50
+background_r: 50
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_wxpc__35395: http://wxPC:35395/
+rosversion: '1.16.0
+
+  '
+run_id: bb880238-0b85-11ef-8f1f-09921e1d558a
+turtlesim:
+  background_b: 255
+  background_g: 86
+  background_r: 150
