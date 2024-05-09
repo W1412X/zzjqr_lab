@@ -1,4 +1,4 @@
-#!/home/wangxv/.pyenv/shims/python
+#!~/.pyenv/shims/python
 import sys 
 import rospy
 from learning_service.srv import Person, PersonRequest

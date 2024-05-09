@@ -1,4 +1,4 @@
-#!/home/wangxv/.pyenv/shims/python
+#!~/.pyenv/shims/python
 import rospy
 from geometry_msgs.msg import Twist
 def velocity_publisher():

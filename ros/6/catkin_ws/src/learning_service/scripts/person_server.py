@@ -1,4 +1,4 @@
-#!/home/wangxv/.pyenv/shims/python
+#!~/.pyenv/shims/python
 import rospy
 from learning_service.srv import Person, PersonResponse
 def personCallback(req):#显示请求数据

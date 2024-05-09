@@ -1,0 +1,8 @@
+prefix=/home/wangxv/Files/hw/jqr/ros/2/catkin_ws/install
+
+Name: hello_world
+Description: Description of hello_world
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

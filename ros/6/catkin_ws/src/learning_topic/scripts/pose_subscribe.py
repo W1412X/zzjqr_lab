@@ -1,4 +1,4 @@
-#!/home/wangxv/.pyenv/shims/python
+#!~/.pyenv/shims/python
 import rospy
 from turtlesim.msg import Pose
 def poseCallback(msg):
